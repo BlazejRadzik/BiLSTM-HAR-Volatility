@@ -130,14 +130,6 @@ Differences in average QLIKE are tested with a **Diebold–Mariano** test (HAC-a
 |------|------------|
 | [`DeepVol_HAR.ipynb`](./DeepVol_HAR.ipynb) | Full Jupyter notebook: baseline (illusion of edge), robustness / overfitting stress test, final daily-walk-forward engine, and the comparative evaluation cell. |
 | [`requirements.txt`](./requirements.txt) | Reproducibility — pinned-ish package list. |
-| [`README.md`](./README.md) | This file. |
-
-The notebook is structured in four progressive sections:
-
-1. **Baseline ("Illusion of Edge")** — the naive Bi-LSTM that *appears* to beat HAR until you look at it properly.
-2. **Stress test ("Fighting Overfitting")** — high dropout, smaller hidden state, strict early stopping.
-3. **Final model** — the DL-HAR architecture used in the headline results.
-4. **Walk-forward evaluation engine** — the rigorous OOS comparison whose output is the table in §2.
 
 ---
 
@@ -170,16 +162,13 @@ Then run the cells top-to-bottom. Data is pulled live from Yahoo Finance via `yf
 If you use this work, please cite as:
 
 ```
-Radzik, B. (2026). BiLSTM-HAR-Volatility: A Comparative Study of Bi-LSTM Networks
-and Econometric HAR Models in Realized Volatility Forecasting — The Role of Market
-Liquidity and Maturity. GitHub: BlazejRadzik/BiLSTM-HAR-Volatility.
+Radzik, B. (2026). Analiza porównawcza modelu Bi-LSTM i HAR w prognozowaniu zmienności rynkowej. W: A. Prędki (red.), Analiza ilościowa wybranych problemów z zakresu ekonomii i finansów (s. 43–52). Kraków: Uniwersytet Ekonomiczny w Krakowie.
 ```
 
 ---
 
 ## 10. Contact
-
+- **Email:** blazej.radzik@edu.uekat.pl
 - **LinkedIn:** [linkedin.com/in/błażej-radzik](https://www.linkedin.com/in/b%C5%82a%C5%BCej-radzik/)
-- A LinkedIn post about the publication is coming soon, followed by the slides from the accompanying presentation.
 
 Feedback, replications, and pull requests are very welcome.
