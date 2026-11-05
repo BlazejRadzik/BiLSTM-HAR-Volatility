@@ -5,8 +5,6 @@
 > **Author:** Błażej Radzik
 > **ISBN:** 978-83-67620-66-6 p.43
 > **Link:** https://books.google.pl/books?id=x9QAEgAAQBAJ&newbks=0&printsec=frontcover&pg=PA99&dq=Analiza+ilo%C5%9Bciowa+wybranych+problem%C3%B3w+z+zakresu+ekonomii+i+finans%C3%B3w&hl=pl&source=newbks_fb&redir_esc=y#v=onepage&q=Analiza%20ilo%C5%9Bciowa%20wybranych%20problem%C3%B3w%20z%20zakresu%20ekonomii%20i%20finans%C3%B3w&f=false
->
-> A LinkedIn post summarizing the publication — and, later, the conference-style presentation — will be uploaded to the profile above.
 
 ---
 
