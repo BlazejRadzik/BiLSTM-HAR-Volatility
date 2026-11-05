@@ -162,7 +162,9 @@ Then run the cells top-to-bottom. Data is pulled live from Yahoo Finance via `yf
 If you use this work, please cite as:
 
 ```
-Radzik, B. (2026). Analiza porównawcza modelu Bi-LSTM i HAR w prognozowaniu zmienności rynkowej. W: A. Prędki (red.), Analiza ilościowa wybranych problemów z zakresu ekonomii i finansów (s. 43–52). Kraków: Uniwersytet Ekonomiczny w Krakowie.
+Radzik, B. (2026). Analiza porównawcza modelu Bi-LSTM i HAR w prognozowaniu zmienności rynkowej.
+W: A. Prędki (red.), Analiza ilościowa wybranych problemów z zakresu ekonomii i finansów (s. 43–52).
+Kraków: Uniwersytet Ekonomiczny w Krakowie.
 ```
 
 ---
