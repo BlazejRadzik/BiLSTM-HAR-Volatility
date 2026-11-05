@@ -23,7 +23,6 @@ This study challenges that reflex. It evaluates a hybrid **DL-HAR** architecture
 
 The central hypothesis was straightforward: **the deeper the market, the bigger the edge of deep learning.** The results turn out to be considerably more interesting than that.
 
----
 
 ## 2. Results
 
@@ -38,7 +37,6 @@ All forecasts are produced under a **daily walk-forward** protocol with model-sp
 
 **One sentence:** the Bi-LSTM only delivers a statistically significant gain on Germany — i.e. on the *intermediate* market, not on the most liquid one and not on the noisiest ones.
 
----
 
 ## 3. The "Triad of Market Efficiency"
 
@@ -55,7 +53,6 @@ Germany offers the **best of both worlds**: liquid enough to provide a clean mat
 
 The takeaway: deep learning is not a universal upgrade. It is a *regime-dependent* tool whose edge appears on markets of **intermediate efficiency**.
 
----
 
 ## 4. Methodology
 
@@ -114,7 +111,6 @@ This is where most "deep learning beats X" papers break down. To avoid look-ahea
 ### 4.6. Statistical test — Diebold–Mariano
 Differences in average QLIKE are tested with a **Diebold–Mariano** test (HAC-adjusted, lag = 1). A model is declared the winner only if the *p*-value falls below 5% **and** the QLIKE delta points in its favor.
 
----
 
 ## 5. Why this matters
 
@@ -122,7 +118,6 @@ Differences in average QLIKE are tested with a **Diebold–Mariano** test (HAC-a
 - **It localizes where DL actually pays.** Not at the extremes (too noisy → overfit; too efficient → linear ceiling) but on **intermediate-efficiency** markets like Germany.
 - **It is built like a real quant pipeline**, not a toy notebook: walk-forward, scaler discipline, asymmetric loss, statistical significance testing, leverage-effect features, positivity-preserving output. The negative results on SPY/EPOL/EEM are *negative results*, not bugs — and that is the point.
 
----
 
 ## 6. Repository contents
 
@@ -131,7 +126,6 @@ Differences in average QLIKE are tested with a **Diebold–Mariano** test (HAC-a
 | [`DeepVol_HAR.ipynb`](./DeepVol_HAR.ipynb) | Full Jupyter notebook: baseline (illusion of edge), robustness / overfitting stress test, final daily-walk-forward engine, and the comparative evaluation cell. |
 | [`requirements.txt`](./requirements.txt) | Reproducibility — pinned-ish package list. |
 
----
 
 ## 7. How to reproduce
 
@@ -146,7 +140,6 @@ jupyter notebook DeepVol_HAR.ipynb
 
 Then run the cells top-to-bottom. Data is pulled live from Yahoo Finance via `yfinance`, so no manual download is needed. The seed is fixed; you should reproduce the headline numbers up to floating-point noise.
 
----
 
 ## 8. Limitations & future work
 
@@ -155,7 +148,6 @@ Then run the cells top-to-bottom. Data is pulled live from Yahoo Finance via `yf
 - **Single architecture.** The same protocol could be re-run with Temporal Fusion Transformers, N-BEATS, or hybrid GARCH–DL models — to see whether the Triad pattern holds across architectures.
 - **Multi-asset attention.** Letting the network attend across markets (e.g. SPY conditioning EWG) is the most promising direction for breaking the linearity barrier on SPY itself.
 
----
 
 ## 9. Citation
 
@@ -167,7 +159,6 @@ W: A. Prędki (red.), Analiza ilościowa wybranych problemów z zakresu ekonomii
 Kraków: Uniwersytet Ekonomiczny w Krakowie.
 ```
 
----
 
 ## 10. Contact
 - **Email:** blazej.radzik@edu.uekat.pl
