@@ -3,8 +3,8 @@
 ### A Comparative Study of Bi-LSTM Neural Networks and Econometric HAR Models in Realized Volatility Forecasting — The Role of Market Liquidity and Maturity
 
 > **Author:** Błażej Radzik
-> **Status:** Independent quantitative research / pre-publication
-> **LinkedIn:** [linkedin.com/in/błażej-radzik](https://www.linkedin.com/in/b%C5%82a%C5%BCej-radzik/)
+> **ISBN:** 978-83-67620-66-6 p.43
+> **Link:** https://books.google.pl/books?id=x9QAEgAAQBAJ&newbks=0&printsec=frontcover&pg=PA99&dq=Analiza+ilo%C5%9Bciowa+wybranych+problem%C3%B3w+z+zakresu+ekonomii+i+finans%C3%B3w&hl=pl&source=newbks_fb&redir_esc=y#v=onepage&q=Analiza%20ilo%C5%9Bciowa%20wybranych%20problem%C3%B3w%20z%20zakresu%20ekonomii%20i%20finans%C3%B3w&f=false
 >
 > A LinkedIn post summarizing the publication — and, later, the conference-style presentation — will be uploaded to the profile above.
 
@@ -27,9 +27,9 @@ The central hypothesis was straightforward: **the deeper the market, the bigger 
 
 ---
 
-## 2. Headline Results
+## 2. Results
 
-All forecasts are produced under a strict **daily walk-forward** protocol with model-specific re-training every trading day, **QLIKE** as the loss, and a **Diebold–Mariano** test for statistical significance. Lower QLIKE is better.
+All forecasts are produced under a **daily walk-forward** protocol with model-specific re-training every trading day, **QLIKE** as the loss, and a **Diebold–Mariano** test for statistical significance. Lower QLIKE is better.
 
 | Market | QLIKE HAR | QLIKE DL | DM stat | p-value | Verdict |
 |--------|-----------|----------|---------|---------|---------|
